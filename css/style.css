@@ -1,0 +1,51 @@
+
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+
+body {
+    font-family: 'Gloock', cursive;
+    font-size: 20px;
+    margin: 0px auto;
+    background-color: #ced4da;
+    align-items: center;
+}
+.slide-in {
+  transform: translateX(-100%);
+  animation: slideIn 1.2s ease-in forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.texte-agrandi:hover {
+  font-size: 1.05em;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+h1{
+    font-weight: bold;
+
+}
+
+h1, h2, h3 {
+    font-family: 'Gloock';
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+}
